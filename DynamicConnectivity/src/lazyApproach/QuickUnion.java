@@ -1,5 +1,11 @@
 package lazyApproach;
 
+/**
+ * @author mojtaba
+ * the order of  growth in this solution for find connectivity is O(n)
+ * the order of growth for make a connection and union function for n nodes is O(N)
+ * for initiation also is O(n) 
+ */
 public class QuickUnion  implements IUnion{
 	private int[] unionArray;
 	public void initialize(int n){
