@@ -2,6 +2,12 @@ package greedyApproach;
 
 import lazyApproach.IUnion;
 
+/**
+ * @author mojtaba
+ * the order of  growth in this solution for find connectivity is O(1)
+ * the order of growth for make a connection and union function for n nodes is O(N^2)
+ * for initiation also is O(n) 
+ */
 public class QuickFind implements IUnion{
 
 	private int[] unionArray;
