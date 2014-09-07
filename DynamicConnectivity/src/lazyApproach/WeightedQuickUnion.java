@@ -8,8 +8,8 @@ package lazyApproach;
  */
 
 public class WeightedQuickUnion implements IUnion {
-	private int[] unionArray;
-	private int[] unionSize;
+	protected int[] unionArray;
+	protected int[] unionSize;
 	public void initialize(int n){
 		try {
 			unionArray = new int[n];
